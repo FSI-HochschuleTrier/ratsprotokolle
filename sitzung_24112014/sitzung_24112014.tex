@@ -1,0 +1,248 @@
+\documentclass[a4paper, 11pt]{article} % das Papierformat zuerst
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, top=25mm, left=35mm, right=25mm, bottom=25mm}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{blindtext}
+\usepackage[ngerman]{babel} %deutsche Silbentrennung
+\usepackage{titlesec}
+\usepackage{enumitem} 
+\usepackage{hyperref}
+
+
+\definecolor{fsi}{RGB}{0,81,150}
+
+% VARIABLEN
+\newcommand{\protokoller}{Thadeusz W{\'o}jcik}
+\newcommand{\dateOfMeeting}{24. November 2014}
+\newcommand{\TeXer}{Thadeusz W{\'o}jcik}
+\newcommand{\fsiPresident}{Georg Sch{\"a}fer}
+
+
+\begin{document}
+%deckblatt start
+
+\doublespacing
+\thispagestyle{empty}
+
+\begin{center}
+\includegraphics[width=10.0cm]{../logo_faculty_computer_science.eps}
+
+\vspace*{\fill}
+{\LARGE \textbf{Protokoll der Sitzung des Fachschaftsrates \\vom \dateOfMeeting}}\\
+Fachschaftsrat Informatik\\
+Trier University of Applied Sciences\\
+\vspace{2.5cm}
+\textit{
+	Protokollführer: \textbf{\protokoller} \\
+	\LaTeX - Umsetzung von \TeXer\\
+	am \today
+}
+\vfill
+\end{center}
+
+\hspace*{-35cm}
+\textcolor{fsi}{\rule{64.9cm}{15pt}}
+\pagebreak
+ 
+\setcounter{tocdepth}{2}
+\tableofcontents 
+\pagebreak
+
+\section{Eröffnung}
+Als Protokollführer wird \protokoller~bestimmt.\\
+Der Sprecher des Fachschaftsrates \fsiPresident~eröffnet die Sitzung um 19:25 Uhr.
+\\\\
+\textbf{Es wird festgestellt, dass der Fachschaftsrat vollzählig und beschlussfähig ist.}
+\\\\
+\textbf{Es wird festgestellt, dass der Fachschaftsrat vollzählig und beschlussfähig ist.}
+\subsection{Anwesende}
+\begin{tabular}{ll}
+	\textbf{gewählte, neue Ratsmitglieder} & \textbf{zusätzlich anwesende}\\
+	Georg Schäfer & Lisa Schmidt\\
+	Marco Lochen & Robert Naumann\\
+	Santo Pfingsten & Stefan Bodenschatz\\
+	Michael Ochmann & Thomas Eppers\\
+	Johannes Kirchner & \\
+	Thadeusz W{\'o}jcik & \\
+	Fabio Gimmillaro & \\
+	Tim Grundmanns & \\
+	Elias Broschin & \\
+	Benjamin Albsmeier & \\
+	Tobias Meier & \\
+	Dominik Petersdorf & \\
+	Phillipp Dippel & \\
+\end{tabular}
+\vspace{1.0cm}
+\begin{flushleft}
+Es wird der Antrag gestellt, ein neues Top namens ,,Nachnominierungen`` in die Sitzungsplanung aufzunehmen.
+\begin{center}
+	\textbf{Der Antrag wird einstimmig angenommen.}
+\end{center}
+\end{flushleft}
+
+\section{Nachnominierungen}
+Die folgenden Personen bitten darum, nachträglich in den Rat aufgenommen zu werden. Dazu ist es erforderlich, dass der Kandidat weder eine 'Nein' Stimme erhält, noch die Anzahl der Enthaltungen die Anzahl der 'Ja' Stimmen übersteigt.\\
+Um Aufnahme bitten folgende Personen:
+\begin{flushleft}
+	\textbf{Lisa Schmidt und Robert Naumann}
+\end{flushleft}
+\subsection{Ergebnisse}
+\begin{tabular}{|l|l|l|l|}
+	\hline
+	\textbf{Kandidat} & \textbf{'Ja' Stimmen} & \textbf{'Nein' Stimmen} & \textbf{Enthaltungen}\\ \hline
+	Lisa Schmidt & 12 & 1 & 0\\ \hline
+	Robert Naumann & 3 & 2 & 8\\ \hline
+\end{tabular}
+\vspace{0.5cm}
+\begin{flushleft}
+	Die Anforderungen für die Aufnahme wurden somit von keinem der Kandidaten erfüllt.
+\end{flushleft}
+
+\section{Finanzen}
+Tim Grundmanns vermittelt, er habe Probleme, von dem AStA die Finanzunterlagen vom letzten Jahr zu kriegen, da er keine Antwort auf seine Mails kriegt.
+\\\\
+Es wird das vom AStA eingeführte System, welches den Fachschaften eine gewisse Finanzielle Planungsmöglichkeit geben soll, vorgestellt. Durch dieses wird den Fachschaften ermöglicht, gewisse Events zu organisieren, und Anschaffungen zu tätigen.
+\\\\
+Johannes Kirchner erwähnt Plane, den Fachschaftsserver (Knut) durch einen neuen Rechner zu ersetzen. Dies würde nach der Planung von Johannes Kirchner und Michael Ochmann grob geschätzt etwa 1260 Euro kosten.
+\\\\
+Es wird der Antrag gestellt, den neuen Server zu beschaffen.
+\\\\
+Es wird der Antrag gestellt, die Abstimmung über den vorherigen Antrag auf die nächste Sitzung zu verschieben.
+\begin{center}
+	\textbf{Der Antrag wird mit einer Enthaltung und 12 Ja-Stimmen angenommen.}
+\end{center}
+
+\section{Events}
+Elias Broschin berichtet über den Fortschritt  bei der Organisation vom Fachschaftsglühen.
+\\\\
+Dominik erwähnt Sorgen um die Terminvereinbarung zwischen Glühen und Analogspieleabend.
+Weiterhin erwähnt er die Absicht, für die NIV/Turnier von der Sparkasse, oder anderen Sponsoren, kleine Gewinne zu besorgen.
+Die NIV wird frühestens im Januar veranstaltet.
+\\\\
+Fabio Gimmillaro erwähnt, dass das Fußballturnier wegen dem Wetter und der Finanzlage auf das nächste Semester verschoben wird.
+\\\\
+Der Zeitpunkt der Night of the Living Devs wird auf etwa Mitte Dezember festgelegt.
+\\\\
+Tobias Meier berichtet, dass im Umfang der Game Dev Week weiterhin Fachseminare angeboten werden sollen, und setzt den Zeitpunkt des Ideenfindungstreffens auf einen näher unbestimmten Zeitpunkt nach der Weihnachtspause.
+Es wird die Möglichkeit besprochen, wegen dem Großen Andrang im letzten Semester zwei Java-Gruppen und eine C++-Gruppe zu organisieren. 
+Der Termin der GDW wird vorläufig auf den 4. bis zum 10.4.2015 gesetzt.
+\\\\
+Das Fachschaftsgrillen wird auf das Ende der Klausurenphase angesetzt. Es wird eine Umfrage geplant, um den genauen Termin festzulegen.
+
+\section{Website}
+Michael Ochmann berichtet, dass der Fachschaftsrat jetzt ein Wiki unter \url{http://www.fsi.hochschule-trier.de/dev/null} hat, welches zur Sammlung von Informationen über den Fachschaftsrat und die Hochschule dienen soll.
+\\\\
+Weiterhin funktioniert der Ausleihservice auf der Fachschaftsratswebsite.
+\\\\
+Die Emailverteiler werden vom Rechenzentrum verwaltet, jede Position hat einen Alias, auf dem Mails empfangen werden können.
+\begin{center}
+Elias Broschin und Dominik Petersdorf verlassen um 20:38 den Raum.
+\end{center}
+\begin{center}
+Elias Broschin kommt um 20:40 zurück.
+\end{center}
+\begin{center}
+Dominik Petersdorf kommt um 20:41 zurück.
+\end{center}
+
+\section{Fachschaftsraum}
+Benjamin Albsmeier berichtet, dass er die Mail mit der Bitte, den Raumzugang für die betroffenen Personen freizuschalten, am 1. Dezember abschicken will.
+
+\subsection{Zustand des Raumes}
+Es wird der Antrag gestellt, einen Putzplan einzuführen.
+\begin{center}
+	\textbf{Der Antrag wird mit 12 Ja-Stimmen und einer Enthaltung angenommen.}
+\end{center}
+
+\subsection{Mobiliar}
+Es wird die Ausbesserung der Sofas geplant, wobei kein konkreter Termin festgelegt wird. 
+\begin{center}
+	Fabio Gimmillaro verlässt um 20:59 die Sitzung.
+\end{center}
+
+Es wird der Antrag gestellt, zu überprüfen, ob die Sofas reparierbar sind, und wenn nicht, neues Mobiliar zu beschaffen.
+\begin{center}
+	\textbf{Der Antrag wird einstimmig angenommen.}
+\end{center}
+
+\section{Stand der Einarbeitung der neuen Amtsinhaber}
+Die neuen Amtsinhaber berichten, dass sie sich weitestgehend in ihre Funktionen eingearbeitet haben. 
+
+\section{Studentische Anliegen}
+In Reaktion auf eine Beschwerdemail von einem Studierenden apropos der Vorlesungs- und Übungsstruktur von Prof. Klösener wird einstimmig entschieden, eine Email an die Studierendenschaft herauszuschicken, in der erläutert wird, wie ein Studium funktioniert.
+\\\\
+Auf Beschwerde von Konrad Puczynski, dass die Ubüngsgruppen zu den meisten Fächern zu voll seien und teilweise keine Tutorien angeboten werden, wird entschieden, die Studierendenschaft über weitere Möglichkeiten zu informieren, sich Hilfe beim Lernen zu besorgen.
+\\\\
+Markus Schmieder hat sich uber Prof. Schneiders Art, Bonuspunkte bei den Ubungen zu behandeln beschwert.
+\begin{center}
+	Phillipp Dippel verlässt um 21:30 die Sitzung.
+\end{center}
+\begin{center}
+	Michael Ochmann verlässt um 21:31 die Sitzung.
+\end{center}
+\begin{center}
+	Michael Ochmann kommt um 21:32 zurück.
+\end{center}
+\begin{center}
+	Phillipp Dippel kommt um 21:33 zurück.
+\end{center}
+Es wird entschieden, Markus Schmieder zu antworten, die Situation hätte sich im Vergleich zu den letzten Semestern verbessert.
+\section{Sonstiges}
+
+Es wird der Antrag gestellt, das Protokoll der letzten Sitzung in der zu übernehmen.
+\begin{center}
+	\textbf{Der Antrag wird einstimmig angenommen.}
+\end{center}
+
+Der Sprecher Georg Schäfer schließt die Sitzung um 21:42 Uhr.
+
+\pagebreak
+\section{Bestätigung des Protokolls}
+Alle Mitglieder des Fachschaftsrates Informatik bestätigen mit Ihrer Unterschrift unter diesem Protokoll, dass selbiges inhaltlich korrekt ist und alle darin aufgeführten Beschlüsse so wie beschrieben vom Rat getragen werden.
+\\
+\vspace{1.5cm}
+
+\hrulefill \hfill \hrulefill
+
+Elias Broschin \hfill Tim Grundmanns
+
+\vspace{2.0cm}
+\hrulefill \hfill \hrulefill
+
+Fabio Gimmillaro \hfill Santo Pfingsten
+
+\vspace{2.0cm}
+\hrulefill \hfill \hrulefill
+
+Johannes Kirchner \hfill Michael Ochmann
+
+\pagebreak
+\vspace{2.0cm}
+\hrulefill \hfill \hrulefill
+
+Philipp Dippel \hfill Benjamin Albsmeier
+
+\vspace{2.0cm}
+\hrulefill \hfill \hrulefill
+
+Marco Lochen \hfill Tobias Meier
+
+\vspace{2.0cm}
+\hrulefill \hfill \hfill \hfill
+
+Dominik Petersdorf \hfill \hfill
+
+\vspace{3.5cm}
+\hrulefill \hfill \hrulefill
+
+Georg Schäfer \hfill Thadeusz Wojcik
+
+{\footnotesize (Sprecher)\hfill (stellv. Sprecher)}
+
+\end{document}
