@@ -1,0 +1,95 @@
+\documentclass[a4paper, 11pt]{article} % das Papierformat zuerst
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, top=25mm, left=35mm, right=25mm, bottom=25mm}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{blindtext}
+\usepackage[ngerman]{babel} %deutsche Silbentrennung
+\usepackage{titlesec}
+\usepackage{enumitem} 
+\usepackage{hyperref}
+
+
+\definecolor{fsi}{RGB}{0,81,150}
+
+% VARIABLEN
+\newcommand{\protokoller}{Dominik Petersdorf}
+\newcommand{\dateOfMeeting}{12. Mai 2015}
+\newcommand{\TeXer}{Dominik Petersdorf}
+\newcommand{\fsiPresident}{Georg Schäfer}
+
+
+\begin{document}
+%deckblatt start
+
+\doublespacing
+\thispagestyle{empty}
+
+\begin{center}
+\includegraphics[width=10.0cm]{../logo_faculty_computer_science.eps}
+
+\vspace*{\fill}
+\begin{singlespace}
+	{\LARGE \textbf{Protokoll der Vollversammlung der Fachschaft Informatik 
+			\singlespacing
+			\\vom \dateOfMeeting}}\\
+			Fachschaftsrat Informatik\\
+			Trier University of Applied Sciences\\
+			\vspace{2.5cm}
+			\textit{
+				Protokollführer: \textbf{\protokoller} \\
+				\LaTeX - Umsetzung von \TeXer\\
+				am \today 
+			
+		
+	}
+\end{singlespace}
+
+\vfill
+\end{center}
+
+\hspace*{-35cm}
+\textcolor{fsi}{\rule{64.9cm}{15pt}}
+\pagebreak
+ 
+\setcounter{tocdepth}{2}
+\tableofcontents 
+\pagebreak
+
+\section{Begrüßung}
+Als Protokollführer wird \protokoller~bestimmt.\\
+Der Sprecher des Fachschaftsrates \fsiPresident~eröffnet die Vollversammlung um 13:15 Uhr.
+\\\\
+\textbf{Es wird festgestellt, dass die Vollversammlung nicht beschlussfähig ist.}
+Daher die ordentliche Vollversammlung nicht beschlussfähig ist, wird durch den Sprecher des Fachschaftsrates frühstens nach 24 Stunden spätestens nach 2 Wochen eine außerordentliche Sitzung einberufen.
+\subsection{Anwesende}
+siehe Anlagen.
+
+\section{Satzungsänderung}
+\section{Finanzen}
+\section{Events}
+\section{Ratsarbeit}
+\section{Sonstiges}
+
+Der Sprecher Georg Schäfer schließt die Vollversammlung um 13:20 Uhr.
+
+\pagebreak
+\section{Bestätigung des Protokolls}
+Der Sprecher des Fachschaftsrates Informatik sowie der Protokollführer dieses Protokolls bestätigen mit Ihrer Unterschrift unter diesem Protokoll, dass selbiges inhaltlich korrekt ist und alle darin aufgeführten Beschlüsse so wie beschrieben vom Rat getragen werden.
+\\
+\vspace{1.5cm}
+
+
+\vspace{3.5cm}
+\hrulefill \hfill \hrulefill
+
+\fsiPresident \hfill \TeXer
+
+{\footnotesize (Sprecher)\hfill (Protokollführer)}
+
+\end{document}
