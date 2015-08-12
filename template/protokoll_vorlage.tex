@@ -11,13 +11,14 @@
 \usepackage{blindtext}
 \usepackage[ngerman]{babel} %deutsche Silbentrennung
 \usepackage{titlesec}
+\usepackage{textcomp}
 \usepackage{enumitem} 
 \usepackage{ifthen}
 
 \definecolor{fsi}{RGB}{0,81,150}
 
+\newcounter{summe}
 \newcommand{\abstimmung}[4]{
-	\newcounter{summe}
 	\setcounter{summe}{#3}
 	\addtocounter{summe}{#4}
 	\begin{flushleft}
